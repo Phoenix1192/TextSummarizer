@@ -1,0 +1,75 @@
+.jumbotron-fluid {
+    background-color: #D3C0D2;
+}
+
+.Original_title {
+    background-color: #e7627b;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.Summary_title {
+    background-color: #D0FFD6;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.srt {
+    display: flex;
+    flex-direction: row;
+}
+
+.OriginalTxt {
+    border: 10px solid #DAFFEF;
+    margin-left: 10px;
+    padding: 3px;
+    max-height: 85vh;
+    overflow-y: scroll;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.SummaryTxt {
+    border: 10px solid #DAFFEF;
+    margin-left: 10px;
+    padding: 3px;
+    max-height: 85vh;
+    overflow-y: scroll;
+    width: 100%;
+    border-radius: 3px
+}
+
+.OriginalTxt::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .OriginalTxt {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .SummaryTxt::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .SummaryTxt {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  .butts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .butts{
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
